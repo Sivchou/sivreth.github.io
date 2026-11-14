@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 262">
+<defs>
+ <linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f8f7"/><stop offset=".55" stop-color="#e8ebea"/><stop offset="1" stop-color="#d9dddc"/></linearGradient>
+ <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fa652"/><stop offset=".5" stop-color="#2f9444"/><stop offset="1" stop-color="#257a37"/></linearGradient>
+ <linearGradient id="roof" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9cecf"/><stop offset="1" stop-color="#eef0ef"/></linearGradient>
+ <linearGradient id="gl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d4a52"/><stop offset=".3" stop-color="#1e272d"/><stop offset="1" stop-color="#11171b"/></linearGradient>
+ <linearGradient id="red" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2343a"/><stop offset="1" stop-color="#b9212a"/></linearGradient>
+ <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".10"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <g id="slit"><rect width="11" height="40" rx="4" fill="url(#gl)" stroke="#c9cecf" stroke-width="1.5"/></g>
+</defs>
+<!-- roof equipment -->
+<rect x="200" y="0" width="150" height="16" rx="3" fill="#b9bfc1"/><rect x="460" y="-4" width="250" height="20" rx="3" fill="#aeb4b7"/>
+<path d="M480 -4h40v20h-40z" fill="#9aa0a3"/>
+<!-- body -->
+<path d="M4 22 Q4 12 16 12 L776 10 Q796 10 800 26 L806 236 L4 236 Z" fill="url(#w)"/>
+<path d="M4 12 L790 10 Q798 10 800 18 L800 24 L4 26 Z" fill="url(#roof)"/>
+<path d="M4 124 L806 124 L806 236 L4 236 Z" fill="url(#g)"/>
+<rect x="4" y="122" width="802" height="3" fill="#1f6b31" opacity=".6"/>
+<!-- skirt panels -->
+<rect x="56" y="200" width="96" height="36" rx="2" fill="none" stroke="#1f6b31" stroke-width="2"/>
+<rect x="282" y="205" width="98" height="36" rx="2" fill="url(#g)" stroke="#1f6b31" stroke-width="2"/>
+<circle cx="72" cy="168" r="5" fill="#1f6b31"/>
+<!-- windows -->
+<rect x="62" y="34" width="86" height="82" rx="7" fill="url(#gl)" stroke="#bfc4c6" stroke-width="3"/>
+<rect x="292" y="28" width="92" height="88" rx="7" fill="url(#gl)" stroke="#bfc4c6" stroke-width="3"/>
+<rect x="392" y="28" width="94" height="88" rx="7" fill="url(#gl)" stroke="#bfc4c6" stroke-width="3"/>
+<rect x="494" y="28" width="96" height="88" rx="7" fill="url(#gl)" stroke="#bfc4c6" stroke-width="3"/>
+<path d="M296 32h40l-24 80h-16z M396 32h40l-24 80h-16z M498 32h40l-24 80h-16z M66 38h36l-22 74h-14z" fill="#fff" opacity=".07"/>
+<rect x="292" y="50" width="92" height="3" fill="#bfc4c6" opacity=".7"/><rect x="392" y="50" width="94" height="3" fill="#bfc4c6" opacity=".7"/><rect x="494" y="50" width="96" height="3" fill="#bfc4c6" opacity=".7"/>
+<!-- left door -->
+<rect x="164" y="40" width="108" height="196" fill="none" stroke="#9ea4a7" stroke-width="2.5"/>
+<line x1="218" y1="40" x2="218" y2="236" stroke="#3a3f42" stroke-width="3"/>
+<rect x="164" y="40" width="108" height="6" fill="#c9cecf"/>
+<use href="#slit" x="174" y="60"/><use href="#slit" x="200" y="60"/><use href="#slit" x="226" y="60"/><use href="#slit" x="252" y="60"/>
+<use href="#slit" x="174" y="138"/><use href="#slit" x="200" y="138"/><use href="#slit" x="226" y="138"/><use href="#slit" x="252" y="138"/>
+<!-- right door + STOP panel -->
+<rect x="628" y="38" width="132" height="210" fill="none" stroke="#9ea4a7" stroke-width="2.5"/>
+<rect x="630" y="40" width="34" height="206" fill="url(#red)"/>
+<g fill="none" stroke="#fff" stroke-width="1.6"><rect x="636" y="58" width="22" height="64" rx="3"/><rect x="636" y="130" width="22" height="64" rx="3"/></g>
+<text x="647" y="98" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="24" fill="#fff">ST</text>
+<text x="647" y="170" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="24" fill="#fff">OP</text>
+<text x="647" y="52" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#fff">STATE</text>
+<text x="647" y="208" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="7" fill="#fff">LAW</text>
+<line x1="712" y1="38" x2="712" y2="248" stroke="#3a3f42" stroke-width="3"/>
+<use href="#slit" x="672" y="58"/><use href="#slit" x="694" y="58"/><use href="#slit" x="720" y="58"/><use href="#slit" x="742" y="58"/>
+<use href="#slit" x="672" y="140"/><use href="#slit" x="694" y="140"/><use href="#slit" x="720" y="140"/><use href="#slit" x="742" y="140"/>
+<!-- cab end -->
+<rect x="766" y="40" width="22" height="64" rx="8" fill="url(#gl)" stroke="#bfc4c6" stroke-width="2"/>
+<path d="M792 22 Q804 26 806 60 L806 120 L794 120 Z" fill="url(#gl)" opacity=".9"/>
+<!-- details -->
+<text x="8" y="116" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#2a2e30">3621</text>
+<text x="678" y="33" font-family="Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#2a2e30">3621B</text>
+<circle cx="462" cy="142" r="12.5" fill="#fff"/><circle cx="462" cy="142" r="10.5" fill="#111"/><path d="M455.5 136.5h13v3.2h-4.9v10h-3.2v-10h-4.9z" fill="#fff"/>
+<rect x="598" y="98" width="18" height="18" rx="2" fill="#1b5fa8"/><circle cx="607" cy="102" r="1.8" fill="#fff"/><path d="M606 105v5h5l2 4" stroke="#fff" stroke-width="1.6" fill="none"/>
+<rect x="566" y="128" width="26" height="34" fill="#f4f4ef" opacity=".9"/><g stroke="#888" stroke-width="1"><line x1="569" y1="134" x2="589" y2="134"/><line x1="569" y1="140" x2="589" y2="140"/><line x1="569" y1="146" x2="585" y2="146"/></g>
+<rect x="598" y="132" width="24" height="20" rx="2" fill="none" stroke="#1f6b31" stroke-width="2"/>
+<g stroke="#1f6b31" stroke-width="2"><line x1="450" y1="162" x2="474" y2="162"/><line x1="450" y1="168" x2="474" y2="168"/><line x1="450" y1="174" x2="474" y2="174"/><line x1="450" y1="180" x2="474" y2="180"/><line x1="450" y1="186" x2="474" y2="186"/></g>
+<rect x="4" y="12" width="802" height="224" fill="url(#sheen)"/>
+<!-- undercarriage -->
+<rect x="4" y="236" width="802" height="8" fill="#2c3033"/>
+<rect x="404" y="232" width="210" height="18" rx="3" fill="#33383b"/>
+<circle cx="440" cy="244" r="17" fill="#3a3f43" stroke="#6b7175" stroke-width="3"/><circle cx="440" cy="244" r="5" fill="#6b7175"/>
+<circle cx="578" cy="244" r="17" fill="#3a3f43" stroke="#6b7175" stroke-width="3"/><circle cx="578" cy="244" r="5" fill="#6b7175"/>
+<rect x="490" y="226" width="40" height="22" rx="3" fill="#4a5054"/>
+<rect x="30" y="236" width="90" height="12" rx="2" fill="#2c3033"/>
+</svg>
